@@ -18,3 +18,12 @@ body{
 .bg-main-2{
     background-color: var(--main-color-2);
 }
+header form{
+    direction: ltr;
+}
+header form input{
+    direction: rtl;
+}
+::placeholder{
+    color: #a1a4a7 !important;
+}
