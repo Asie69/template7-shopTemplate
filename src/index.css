@@ -27,3 +27,61 @@ header form input{
 ::placeholder{
     color: #a1a4a7 !important;
 }
+.col-lg-3 .dropdown .dropdown-menu{
+    text-align: right;
+    min-width: 260px;
+}
+nav .dropdown-menu{
+    background-color: var(--main-color-1) !important;
+    left: initial !important;
+    right: 0 !important;
+    margin-top: 10px !important;
+    text-align: right;
+    
+}
+.dropstart .dropdown-menu{
+    right: 260px;
+}
+.dropstart:hover .dropdown-menu{
+    display: block;
+}
+.dropstart{
+    direction: ltr;
+}
+.dropstart .dropdown-toggle::before{
+    margin-right: 190px !important;
+}
+.navbar-nav .nav-link.active{
+    color: var(--main-color-1) !important;
+}
+.footerIcon{
+    width: 40px;
+    height: 40px;
+}
+footer a:hover{
+    text-decoration: underline !important;
+}
+footer .animateIcon{
+    width: 45px;
+    height: 45px;
+    background-color: var(--main-color-1);
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    animation: infinite 1.5s animatinIcon;
+    border-color: rgba(143, 120, 44, 0.7) !important;
+}
+
+
+
+
+
+
+@keyframes animatinIcon {
+  0%{
+    bottom: 20px;
+  }  
+  50%{
+    bottom: 50px;
+  }
+}

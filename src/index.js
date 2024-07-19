@@ -12,6 +12,10 @@ import Home from './pages/Home';
 
 import PageNotFound from './pages/pageNotFound';
 import Shop from './pages/Shop';
+import SingleProduct from './pages/singleProduct';
+import ContactUs from './pages/contact';
+import Cart from './pages/cart';
+import CheckOut from './pages/checkOut';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -27,6 +31,22 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         Component:Shop
+      },
+      {
+        path: "/singleProduct",
+        Component:SingleProduct
+      },
+      {
+        path: "/contact",
+        Component:ContactUs
+      },
+      {
+        path: "/cart",
+        Component:Cart
+      },
+      {
+        path: "/checkOut",
+        Component:CheckOut
       }
     ]
  } 
