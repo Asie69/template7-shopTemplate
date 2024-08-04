@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-
-
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './pages/layout';
@@ -16,6 +14,8 @@ import SingleProduct from './pages/singleProduct';
 import ContactUs from './pages/contact';
 import Cart from './pages/cart';
 import CheckOut from './pages/checkOut';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([

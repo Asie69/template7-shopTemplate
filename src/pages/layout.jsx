@@ -5,6 +5,9 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import image1 from '../assets/img/payments.png';
+import 'animate.css';
+
+
 
 function Layout() {
     return (
@@ -25,7 +28,7 @@ function Layout() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-6 ps-0">
+                            <div className="col-lg-6 ps-0 topHeader">
                                 <div className="navbar navbar-expand-lg">
                                     <div className="container ps-0">
                                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -174,7 +177,7 @@ function Layout() {
 
 
             </header>
-            <div className="container-fluid">
+            <div className="container-fluid bg-secondary-subtle pb-5">
                 <Outlet />
             </div>
 
@@ -297,7 +300,7 @@ function Layout() {
                             <img src={image1} alt=""/>
                         </div>
                         <div className="col-lg-6">
-                            <p className="text-white mb-0 float-start"> Domain. All Rights Reserved. Designed by HTML Codex©</p>
+                            <p className="text-white mb-0 float-start"> Domain. All Rights Reserved. Designed by Asie Davari©</p>
                         </div>
 
                     </div>

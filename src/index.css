@@ -1,67 +1,86 @@
-body{
+body {
     direction: rtl;
 }
 
 :root {
     --main-color-1: #FFD333;
     --main-color-2: #3D464D;
+    --main-color-3: #959799;
+
 }
-.main-color-1{
+
+.main-color-1 {
     color: var(--main-color-1);
 }
-.main-color-2{
+
+.main-color-2 {
     color: var(--main-color-2);
 }
-.bg-main-1{
+
+.bg-main-1 {
     background-color: var(--main-color-1);
 }
-.bg-main-2{
+
+.bg-main-2 {
     background-color: var(--main-color-2);
 }
-header form{
+
+header form {
     direction: ltr;
 }
-header form input{
+
+header form input {
     direction: rtl;
 }
-::placeholder{
-    color: #a1a4a7 !important;
+
+::placeholder {
+    color: var(--main-color-3) !important;
 }
-.col-lg-3 .dropdown .dropdown-menu{
+
+.col-lg-3 .dropdown .dropdown-menu {
     text-align: right;
     min-width: 260px;
 }
-nav .dropdown-menu{
+
+nav .dropdown-menu {
     background-color: var(--main-color-1) !important;
     left: initial !important;
     right: 0 !important;
     margin-top: 10px !important;
     text-align: right;
-    
+
 }
-.dropstart .dropdown-menu{
+
+.dropstart .dropdown-menu {
     right: 260px;
 }
-.dropstart:hover .dropdown-menu{
+
+.dropstart:hover .dropdown-menu {
     display: block;
 }
-.dropstart{
+
+.dropstart {
     direction: ltr;
 }
-.dropstart .dropdown-toggle::before{
+
+.dropstart .dropdown-toggle::before {
     margin-right: 190px !important;
 }
-.navbar-nav .nav-link.active{
+
+.navbar-nav .nav-link.active {
     color: var(--main-color-1) !important;
 }
-.footerIcon{
+
+.footerIcon {
     width: 40px;
     height: 40px;
 }
-footer a:hover{
+
+footer a:hover {
     text-decoration: underline !important;
 }
-footer .animateIcon{
+
+footer .animateIcon {
     width: 45px;
     height: 45px;
     background-color: var(--main-color-1);
@@ -72,16 +91,215 @@ footer .animateIcon{
     border-color: rgba(143, 120, 44, 0.7) !important;
 }
 
+.topHeader a:hover {
+    text-decoration: underline !important;
+}
+
+.pattern-carousel,
+.pattern-offer {
+    background-color: rgba(10, 10, 10, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .carousel-item {
+    height: 450px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    min-height: 450px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: none !important;
+}
+
+.carousel-caption {
+    bottom: 7rem !important;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px !important;
+    height: 20px !important;
+    transition: all .7s !important;
+    background-color: transparent !important;
+    border: solid 1px #fff !important;
+}
+
+.carousel-indicators .active {
+    width: 40px !important;
+    background-color: #fff !important;
+
+}
+
+.image-offer {
+    height: 213px;
+    transition: all .7s;
+
+}
+
+.product-offer:hover img {
+    transform: scale3d(1.3, 1.3, 1.3) rotate(0.02turn);
+
+}
+
+#categories-title .col-12 h2::after,
+#featuredPro-title .col-12 h2::after,
+#recentPro-title .col-12 h2::after,
+#priceFilter .col-12 h4::after, #colorFilter .col-12 h4::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 70%;
+    right: 0;
+    border-top: 1px dashed #3a3c3d;
+    z-index: -1;
+
+}
+
+#categories-sample .col-lg-3 .col-7 {
+    background-color: #fff;
+    transition: all .5s;
+}
+
+#categories-sample .col-lg-3:hover .col-7 {
+    background-color: var(--main-color-1);
+
+}
+
+#categories-sample .col-lg-3 img {
+    transition: all .7s;
+}
+
+#categories-sample .col-lg-3:hover img {
+    transform: scale3d(1.3, 1.3, 1.3) rotate(0.02turn);
+}
+
+.img-pattern {
+    background-color: rgba(250, 250, 250, 0.7);
+
+}
+
+#featuredPro-sample svg:hover, #filterPro svg:hover {
+    color: var(--main-color-1);
+    background-color: var(--main-color-2);
+}
+
+#featuredDivAction, #filterDivAction {
+    display: none;
+}
+
+#featuredPro-sample .col-lg-3:hover #featuredDivAction, #filterPro .col-lg-4:hover #filterDivAction {
+    display: block;
+}
+
+#featuredPro-sample .col-lg-3 img, #filterPro .col-lg-4 img {
+    transition: all .5s;
+}
+
+#featuredPro-sample .col-lg-3:hover img, #filterPro .col-lg-4:hover img {
+    transform: scale3d(1.3, 1.3, 1.3);
+
+}
+
+.image-featured-offer {
+    height: 300px;
+    transition: all .7s;
+}
+
+/*animate.css-delay-start*/
+.delay-1 {
+    animation-delay: 0s;
+}
+
+.delay-2 {
+    animation-delay: .05s;
+}
+
+.delay-3 {
+    animation-delay: .12s;
+}
+
+.delay-4 {
+    animation-delay: .18s;
+}
+
+/*animate.css-delay-end*/
+
+.owl-carousel{
+direction: ltr;
+}
+.owl-carousel .owl-item img {
+    
+    width: 170px !important;
+}
+.breadcrumb{
+    direction: ltr;
+}
+.breadcrumb a {
+    color: var(--main-color-2);
+    text-decoration: none;
+}
+.breadcrumb-item.active {
+    color: var(--main-color-3) !important;
+}
+.form-check .form-check-input {
+    float: initial !important;
+    margin-left: 10px !important;
+    
+}
+
+.form-check-input {
+    border: 1px solid var(--main-color-1) !important;
+}
+.form-check-input:checked {
+    background-color: var(--main-color-1) !important;
+    border-color: var(--main-color-1) !important;
+}
+
+.form-check-input:focus {
+    box-shadow:none !important;
+}
+.form-check-input:active {
+    filter: brightness(100%);
+}
+.form-select:focus {
+    border-color: var(--main-color-3) !important;
+    box-shadow: 0 0 0 0.25rem rgba(179, 176, 176, 0.5) !important;
+    
+}
+.pagination{
+    direction: ltr;
+}
+.page-link:focus{
+    color: #fff !important;
+    background-color: var(--main-color-1) !important;
+    box-shadow:none !important;
+}
+.pagination{
+        --bs-pagination-color: var(--main-color-2) !important;
+}
+
+
+
+
+
+
 
 
 
 
 
 @keyframes animatinIcon {
-  0%{
-    bottom: 20px;
-  }  
-  50%{
-    bottom: 50px;
-  }
+    0% {
+        bottom: 20px;
+    }
+
+    50% {
+        bottom: 50px;
+    }
 }
