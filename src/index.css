@@ -58,6 +58,9 @@ nav .dropdown-menu {
 .dropstart .dropdown-menu {
     right: 260px;
 }
+.dropdown-item.active{
+    background-color: var(--main-color-1) !important;
+}
 
 .dropstart:hover .dropdown-menu {
     display: block;
@@ -155,7 +158,7 @@ footer .animateIcon {
 #recentPro-title .col-12 h2::after,
 #priceFilter .col-12 h4::after,
 #colorFilter .col-12 h4::after,
-#singlePro-title .col-12 h2::after {
+#singlePro-title .col-12 h2::after, #cartPro-title .col-12 h5::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -322,6 +325,32 @@ footer .animateIcon {
     background-color: #F5F5F5 !important;
 }
 /*singleProduct.php-end*/
+
+/*cart.php-start*/
+.table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+table img{
+    width: 50px;
+    height: 50px;
+}
+table .input-group-text{
+    border: 2px solid var(--main-color-1) !important;
+}
+table .input-group-text:active{
+    border-color:rgba(143, 120, 44, 0.7) !important;
+}
+table .fa-xmark{
+    border: 2px solid #dc3545 !important;
+}
+table .fa-xmark:active {
+    border: 2px solid rgb(160, 22, 22) !important;
+}
+/* table input:focus{
+    border: none !important;
+} */
+/*cart.php-end*/
 
 
 
