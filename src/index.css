@@ -158,7 +158,7 @@ footer .animateIcon {
 #recentPro-title .col-12 h2::after,
 #priceFilter .col-12 h4::after,
 #colorFilter .col-12 h4::after,
-#singlePro-title .col-12 h2::after, #cartPro-title .col-12 h5::after {
+#singlePro-title .col-12 h2::after, #cartPro-title .col-12 h5::after, #checkOut-title h5::after, #checkOut-title-2 h5::after {
     position: absolute;
     content: "";
     width: 100%;
