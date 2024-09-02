@@ -17,7 +17,7 @@ function Layout() {
                 <div className="container-fluid bg-secondary-subtle">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 mb-2 mb-lg-0 pe-0">
                                 <div className="btn-group" role="group">
                                     <button type="button" className="btn btn-light dropdown-toggle mt-2" data-bs-toggle="dropdown" aria-expanded="false">
                                         حساب کاربری
@@ -28,7 +28,7 @@ function Layout() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-6 ps-0 topHeader">
+                            <div className="col-lg-6 ps-0 topHeader d-none d-lg-block">
                                 <div className="navbar navbar-expand-lg">
                                     <div className="container ps-0">
                                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -53,14 +53,14 @@ function Layout() {
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container" id="logo">
                     <div className="row my-2 align-items-center">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 d-none d-lg-block">
                             <p className="lh-sm">خدمات مشتریان</p>
                             <p className="fw-bold lh-sm">05130000000</p>
 
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 d-none d-lg-block">
                             <form className="btn-group" role="search">
                                 <button className="btn border-secondary-subtle" type="submit">
                                     <FontAwesomeIcon className="main-color-1" icon="fa-solid fa-search" />
@@ -79,9 +79,9 @@ function Layout() {
                 {/*topBar-end */}
                 {/*navbar-start */}
                 <div className="container-fluid bg-main-2">
-                    <div className="container">
+                    <div className="container px-0">
                         <div className="row justify-content-between align-items-center">
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 d-none d-lg-block">
                                 <div className="dropdown">
                                     <button className="btn btn-warning dropdown-toggle rounded-0 py-3 px-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <FontAwesomeIcon icon="fa-solid fa-bars" /><span className="pe-2 ps-5 ms-5">دسته‌بندی‌ها</span>
@@ -117,10 +117,12 @@ function Layout() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 pe-0">
                                 <nav className="navbar navbar-expand-lg">
                                     <div className="container-fluid">
-
+                                        <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
                                         
                                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                             <ul className="navbar-nav">
@@ -154,7 +156,7 @@ function Layout() {
                                     </div>
                                 </nav>
                             </div>
-                            <div className="col-lg-2 d-flex justify-content-end align-items-center ps-0">
+                            <div className="col-lg-2 d-flex justify-content-end align-items-center ps-0" id="shopping-cart">
                                 <div className="d-flex align-items-center">
                                     <span class="badge border rounded-circle">0</span>
                                     <FontAwesomeIcon className="main-color-1 p-1" icon="fa-solid fa-shopping-cart" />
@@ -183,7 +185,7 @@ function Layout() {
             <footer className="container-fluid bg-main-2">
                 <div className="container">
                     <div className="row justify-content-evenly">
-                        <div className="col-lg-4 my-5">
+                        <div className="col-12 col-lg-4 my-3 my-lg-5">
                             <h3 className="text-white">با ما در تماس باشید</h3>
                             <p className="text-white my-4">لورم ایپسوم متن ساختگی با تولید س را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنتایپ به پایان رسد و زمان مورد وس
                             </p>
@@ -202,7 +204,7 @@ function Layout() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-lg-2 my-5">
+                        <div className="col-12 col-md-4 col-lg-2 my-3 my-lg-5">
                             <h3 className="text-white mb-4">دسترسی سریع</h3>
                             <ul className="p-0">
                                 <li className="list-unstyled d-flex justify-content-start align-items-center">
@@ -233,7 +235,7 @@ function Layout() {
 
 
                         </div>
-                        <div className="col-lg-2 my-5">
+                        <div className="col-12 col-md-4 col-lg-2 my-3 my-lg-5">
                             <h3 className="text-white mb-4">حساب کاربری</h3>
                             <ul className="p-0">
                                 <li className="list-unstyled d-flex justify-content-start align-items-center">
@@ -264,7 +266,7 @@ function Layout() {
 
 
                         </div>
-                        <div className="col-lg-3 my-5">
+                        <div className="col-12 col-md-4 col-lg-3 my-3 my-lg-5">
                             <h3 className="text-white">خبرنامه</h3>
                             <p className="text-white my-4">لورم ایپسوم متن ساختگی با تولید س را برای طراحان رایانه ای  وس
                             </p>
@@ -294,18 +296,18 @@ function Layout() {
                 </div>
                 <div className="container border-top py-4">
                     <div className="row justify-content-evenly">
-                        <div className="col-lg-6">
+                        <div className="col-md-6 order-2 order-md-1 mt-2 text-center text-md-end">
                             <img src={image1} alt=""/>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-md-6 order-1 order-md-2 text-center text-md-start">
                             <p className="text-white mb-0 float-start"> Domain. All Rights Reserved. Designed by Asie Davari©</p>
                         </div>
 
                     </div>
                 </div>
-                <div className="animateIcon d-flex justify-content-center align-items-center border border-3">
+                <a className="animateIcon d-flex justify-content-center align-items-center border border-3 main-color-2" href="#">
                     <FontAwesomeIcon icon="fa-solid fa-angle-double-up"/>
-                </div>
+                </a>
 
             </footer>
             {/*footer-end */}

@@ -188,7 +188,7 @@ function Shop() {
                     {/*filter-end */}
                     <div className="col-lg-9 ps-0">
                         <div className="row">
-                            <div className="col-3">
+                            <div className="col-6 col-lg-3">
                                 <select className="form-select" aria-label="Default select example">
                                     <option selected>مرتب کردن بر اساس</option>
                                     <option value="1">آخرین</option>
@@ -196,7 +196,7 @@ function Shop() {
                                     <option value="3">با امتیاز بیشتر</option>
                                 </select>
                             </div>
-                            <div className="col-3">
+                            <div className="col-6 col-lg-3">
                                 <select className="form-select" aria-label="Default select example">
                                     <option selected>تعداد نمایش</option>
                                     <option value="1">10</option>

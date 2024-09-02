@@ -28,28 +28,28 @@ function SingleProduct() {
                                 <li className="breadcrumb-item active" aria-current="page">جزئیات محصول</li>
                             </ol>
                         </nav>
-                    </div>
+                    </div>  
                 </section>
                 {/*breadCrumb-end */}
                 <section className="row justify-content-between">
-                    <div className="col-lg-5 pe-0">
+                    <div className="col-lg-5 px-0 mb-4 mb-lg-0">
                         <div className='col-12 bg-white py-4'>
-                            <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+                            <div id="carouselSingle" className="carousel slide" data-bs-ride="carousel">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <img src={image1} className="d-block w-100" alt="..." />
+                                        <img src={image1} className="d-block w-100 object-fit-contain" alt="..." />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={image2} className="d-block w-100" alt="..." />
+                                        <img src={image2} className="d-block w-100 object-fit-contain" alt="..." />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={image3} className="d-block w-100" alt="..." />
+                                        <img src={image3} className="d-block w-100 object-fit-contain" alt="..." />
                                     </div>
                                 </div>
-                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselSingle" data-bs-slide="prev">
                                     <FontAwesomeIcon icon="fas fa-angle-left" className='main-color-2 fa-2x' />
                                 </button>
-                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <button className="carousel-control-next" type="button" data-bs-target="#carouselSingle" data-bs-slide="next">
                                     <FontAwesomeIcon icon="fas fa-angle-right" className='main-color-2 fa-2x' />
 
                                 </button>
@@ -68,7 +68,7 @@ function SingleProduct() {
                         </div>
                         <h3>1500000 تومان</h3>
                         <p className='my-4'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
-                        <span className='d-flex'>سایز:
+                        <span className='d-flex flex-wrap'>سایز:
                             <div className="form-check">
 
                                 <input className="form-check-input me-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
@@ -105,7 +105,7 @@ function SingleProduct() {
                                 </label>
                             </div>
                         </span>
-                        <span className='d-flex my-3'>رنگ:
+                        <span className='d-flex flex-wrap my-3'>رنگ:
                             <div className="form-check">
 
                                 <input className="form-check-input me-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
@@ -143,10 +143,10 @@ function SingleProduct() {
                             </div>
                         </span>
                         <div className='col-12 dir-left d-flex justify-content-end my-4'>
-                            <div className='col-4'>
-                                <button className='btn bg-warning'> اضافه به سبد خرید</button>
+                            <div className='col-6 col-lg-4'>
+                                <button className='btn bg-warning'> اضافه به سبد </button>
                             </div>
-                            <div className='col-3'>
+                            <div className='col-6 col-lg-3'>
                                 <div className="input-group mb-3">
                                     <span className="input-group-text rounded-0">
                                         <FontAwesomeIcon icon="fas fa-plus" />
@@ -159,7 +159,7 @@ function SingleProduct() {
                             </div>
 
                         </div>
-                        <div className='col-5 d-flex justify-content-between'>
+                        <div className='col-12 col-lg-5 d-flex justify-content-between'>
                             <p>اشتراک گذاری:</p>
                             <FontAwesomeIcon icon="fab fa-facebook-f" />
                             <FontAwesomeIcon icon="fab fa-twitter" />
@@ -292,10 +292,15 @@ function SingleProduct() {
                             
                             <OwlCarousel
 
-                                items="4"
+                            
                                 autoplay
                                 loop
                                 margin={20}
+                                responsive={{
+                                    '0': { items: 1, nav: false },
+                                    '768': { items: 2, nav: false },
+                                    '990': { items: 4, nav: true, center: true },
+                                }}
 
 
                             >

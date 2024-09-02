@@ -24,7 +24,7 @@ function Cart() {
                 </section>
                 {/*breadCrumb-end */}
                 <section className='row'>
-                    <div className='col-lg-9'>
+                    <div className='col-12 col-lg-9 table-responsive'>
                         <table class="table table-hover text-center mt-0">
                             <thead>
                                 <tr className='table-dark'>
@@ -37,9 +37,9 @@ function Cart() {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td className='d-flex align-items-center justify-content-start'>
+                                    <td className='d-flex align-items-center justify-content-start flex-wrap'>
                                         <img src={image1} alt='' className='img-fluid' />
-                                        <p className='mb-0 me-2'>نام محصول</p>
+                                        <p className='mb-0 me-2 mt-2 mt-lg-0'>نام محصول</p>
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
@@ -59,9 +59,9 @@ function Cart() {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td className='d-flex align-items-center justify-content-start'>
+                                    <td className='d-flex align-items-center justify-content-start flex-wrap'>
                                         <img src={image2} alt='' className='img-fluid' />
-                                        <p className='mb-0 me-2'>نام محصول</p>
+                                        <p className='mb-0 me-2 mt-2 mt-lg-0'>نام محصول</p>
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
@@ -81,9 +81,9 @@ function Cart() {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td className='d-flex align-items-center justify-content-start'>
+                                    <td className='d-flex align-items-center justify-content-start flex-wrap'>
                                         <img src={image3} alt='' className='img-fluid' />
-                                        <p className='mb-0 me-2'>نام محصول</p>
+                                        <p className='mb-0 me-2 mt-2 mt-lg-0'>نام محصول</p>
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
@@ -103,9 +103,9 @@ function Cart() {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td className='d-flex align-items-center justify-content-start'>
+                                    <td className='d-flex align-items-center justify-content-start flex-wrap'>
                                         <img src={image4} alt='' className='img-fluid' />
-                                        <p className='mb-0 me-2'>نام محصول</p>
+                                        <p className='mb-0 me-2 mt-2 mt-lg-0'>نام محصول</p>
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
@@ -125,9 +125,9 @@ function Cart() {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td className='d-flex align-items-center justify-content-start'>
+                                    <td className='d-flex align-items-center justify-content-start flex-wrap'>
                                         <img src={image5} alt='' className='img-fluid' />
-                                        <p className='mb-0 me-2'>نام محصول</p>
+                                        <p className='mb-0 me-2 mt-2 mt-lg-0'>نام محصول</p>
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
