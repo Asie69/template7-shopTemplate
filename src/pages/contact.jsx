@@ -36,7 +36,7 @@ function ContactUs() {
                         </div>
                     </div>
                     <div className='row my-4'>
-                        <div className='col-lg-7'>
+                        <div className='col-lg-7 mb-4 mb-lg-0'>
                             <div className='bg-white p-4'>
                                 <form>
                                     <input type='text' className='form-control' placeholder='نام' />

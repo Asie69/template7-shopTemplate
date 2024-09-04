@@ -151,7 +151,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='row mt-lg-3' id='categories-sample'>
-                        <div className='col-md-6 col-lg-3 d-flex mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image7} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -160,7 +160,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 d-flex mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image8} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -169,7 +169,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 d-flex mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image9} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -178,7 +178,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 d-flex ps-lg-0 mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex ps-lg-0 mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image10} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -187,9 +187,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                    </div>
-                    <div className='row mt-lg-4' id='categories-sample'>
-                        <div className='col-md-6 col-lg-3 d-flex mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image10} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -198,7 +196,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 d-flex mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image9} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -207,7 +205,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 d-flex mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image8} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -216,7 +214,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 d-flex ps-lg-0 mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex ps-lg-0 mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image7} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -225,9 +223,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                    </div>
-                    <div className='row mt-lg-4' id='categories-sample'>
-                        <div className='col-md-6 col-lg-3 d-flex mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image7} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -236,7 +232,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 d-flex mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image8} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -245,7 +241,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 d-flex mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image9} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -254,7 +250,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 d-flex ps-lg-0 mt-4'>
+                        <div className='col-md-4 col-lg-3 d-flex ps-lg-0 mt-4'>
                             <div className='col-5 overflow-hidden'>
                                 <img src={image10} className='w-100 img-fluid h-100' alt='' />
                             </div>
@@ -263,7 +259,7 @@ function Home() {
                                 <p>100 محصول</p>
                             </div>
                         </div>
-                    </div>
+                    </div>                   
                 </section>
                 {/*category-end */}
                 {/*featured product-start */}

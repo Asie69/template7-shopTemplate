@@ -18,7 +18,7 @@ function CheckOut() {
                 </section>
                 {/*breadCrumb-end */}
                 <section className='row'>
-                    <div className='col-lg-9' id='checkOut-title'>
+                    <div className='col-md-7 col-lg-9' id='checkOut-title'>
                         <h5 className='position-relative z-2'>
                             <span className='bg-secondary-subtle ps-2'>آدرس صورت حساب</span>
                         </h5>
@@ -82,7 +82,7 @@ function CheckOut() {
                             </form>
                         </div>
                     </div>
-                    <div className='col-lg-3' id='checkOut-title-2'>
+                    <div className='col-md-5 col-lg-3' id='checkOut-title-2'>
                         <h5 className='position-relative z-2'>
                             <span className='bg-secondary-subtle ps-2'>اطلاعات سفارش</span>
                         </h5>

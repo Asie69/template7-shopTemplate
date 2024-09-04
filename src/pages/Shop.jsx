@@ -30,7 +30,7 @@ function Shop() {
                 {/*breadCrumb-end */}
                 <section className="row">
                     {/*filter-start */}
-                    <div className="col-lg-3 position-relative">
+                    <div className="col-md-4 col-lg-3 position-relative">
                         <div className='row' id='priceFilter'>
                             <div className='col-12 my-2 pe-0'>
                                 <h4 className='position-relative z-2'>
@@ -186,7 +186,7 @@ function Shop() {
                         </div>
                     </div>
                     {/*filter-end */}
-                    <div className="col-lg-9 ps-0">
+                    <div className="col-md-8 col-lg-9 ps-0">
                         <div className="row">
                             <div className="col-6 col-lg-3">
                                 <select className="form-select" aria-label="Default select example">
@@ -205,207 +205,201 @@ function Shop() {
                                 </select>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className='my-2'>
-
-                                <div className='row' id='filterPro'>
-                                    <div className='col-lg-4 mt-4'>
-                                        <div className='bg-white'>
-                                            <div className='position-relative overflow-hidden p-3'>
-                                                <img src={image1} className='img-fluid' alt='' />
-                                                <div id='filterDivAction'>
-                                                    <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
-                                                    <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
-                                                        <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
-                                                        <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
-                                                        <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
-                                                        <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className='d-flex flex-column align-items-center'>
-                                                <h6 className='my-4'>
-                                                    نام محصول
-                                                </h6>
-                                                <h5>1000000 تومان</h5>
-                                                <p className='mt-2'>
-                                                    <span className='ms-2'>(99)</span>
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-lg-4 mt-4'>
-                                        <div className='bg-white'>
-                                            <div className='position-relative overflow-hidden p-3'>
-                                                <img src={image2} className='img-fluid' alt='' />
-                                                <div id='filterDivAction'>
-                                                    <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
-                                                    <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
-                                                        <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
-                                                        <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
-                                                        <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
-                                                        <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className='d-flex flex-column align-items-center'>
-                                                <h6 className='my-4'>
-                                                    نام محصول
-                                                </h6>
-                                                <h5>1000000 تومان</h5>
-                                                <p className='mt-2'>
-                                                    <span className='ms-2'>(99)</span>
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-lg-4 mt-4'>
-                                        <div className='bg-white'>
-                                            <div className='position-relative overflow-hidden p-3'>
-                                                <img src={image3} className='img-fluid' alt='' />
-                                                <div id='filterDivAction'>
-                                                    <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
-                                                    <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
-                                                        <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
-                                                        <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
-                                                        <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
-                                                        <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className='d-flex flex-column align-items-center'>
-                                                <h6 className='my-4'>
-                                                    نام محصول
-                                                </h6>
-                                                <h5>1000000 تومان</h5>
-                                                <p className='mt-2'>
-                                                    <span className='ms-2'>(99)</span>
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-lg-4 mt-4'>
-                                        <div className='bg-white'>
-                                            <div className='position-relative overflow-hidden p-3'>
-                                                <img src={image4} className='img-fluid' alt='' />
-                                                <div id='filterDivAction'>
-                                                    <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
-                                                    <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
-                                                        <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
-                                                        <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
-                                                        <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
-                                                        <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className='d-flex flex-column align-items-center'>
-                                                <h6 className='my-4'>
-                                                    نام محصول
-                                                </h6>
-                                                <h5>1000000 تومان</h5>
-                                                <p className='mt-2'>
-                                                    <span className='ms-2'>(99)</span>
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-lg-4 mt-4'>
-                                        <div className='bg-white'>
-                                            <div className='position-relative overflow-hidden p-3'>
-                                                <img src={image5} className='img-fluid' alt='' />
-                                                <div id='filterDivAction'>
-                                                    <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
-                                                    <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
-                                                        <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
-                                                        <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
-                                                        <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
-                                                        <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className='d-flex flex-column align-items-center'>
-                                                <h6 className='my-4'>
-                                                    نام محصول
-                                                </h6>
-                                                <h5>1000000 تومان</h5>
-                                                <p className='mt-2'>
-                                                    <span className='ms-2'>(99)</span>
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col-lg-4 mt-4'>
-                                        <div className='bg-white'>
-                                            <div className='position-relative overflow-hidden p-3'>
-                                                <img src={image6} className='img-fluid' alt='' />
-                                                <div id='filterDivAction'>
-                                                    <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
-                                                    <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
-                                                        <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
-                                                        <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
-                                                        <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
-                                                        <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className='d-flex flex-column align-items-center'>
-                                                <h6 className='my-4'>
-                                                    نام محصول
-                                                </h6>
-                                                <h5>1000000 تومان</h5>
-                                                <p className='mt-2'>
-                                                    <span className='ms-2'>(99)</span>
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-                                                    <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
-                                                </p>
+                        <div className='row' id='filterPro'>
+                            <div className='col-md-6 col-lg-4 mt-4'>
+                                <div className='bg-white'>
+                                    <div className='position-relative overflow-hidden p-3'>
+                                        <img src={image1} className='img-fluid' alt='' />
+                                        <div id='filterDivAction'>
+                                            <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
+                                            <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
+                                                <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
+                                                <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
+                                                <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
+                                                <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
                                             </div>
                                         </div>
                                     </div>
 
+                                    <div className='d-flex flex-column align-items-center'>
+                                        <h6 className='my-4'>
+                                            نام محصول
+                                        </h6>
+                                        <h5>1000000 تومان</h5>
+                                        <p className='mt-2'>
+                                            <span className='ms-2'>(99)</span>
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
 
+                                        </p>
+                                    </div>
                                 </div>
-
                             </div>
+                            <div className='col-md-6 col-lg-4 mt-4'>
+                                <div className='bg-white'>
+                                    <div className='position-relative overflow-hidden p-3'>
+                                        <img src={image2} className='img-fluid' alt='' />
+                                        <div id='filterDivAction'>
+                                            <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
+                                            <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
+                                                <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
+                                                <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
+                                                <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
+                                                <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className='d-flex flex-column align-items-center'>
+                                        <h6 className='my-4'>
+                                            نام محصول
+                                        </h6>
+                                        <h5>1000000 تومان</h5>
+                                        <p className='mt-2'>
+                                            <span className='ms-2'>(99)</span>
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-4 mt-4'>
+                                <div className='bg-white'>
+                                    <div className='position-relative overflow-hidden p-3'>
+                                        <img src={image3} className='img-fluid' alt='' />
+                                        <div id='filterDivAction'>
+                                            <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
+                                            <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
+                                                <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
+                                                <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
+                                                <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
+                                                <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className='d-flex flex-column align-items-center'>
+                                        <h6 className='my-4'>
+                                            نام محصول
+                                        </h6>
+                                        <h5>1000000 تومان</h5>
+                                        <p className='mt-2'>
+                                            <span className='ms-2'>(99)</span>
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-4 mt-4'>
+                                <div className='bg-white'>
+                                    <div className='position-relative overflow-hidden p-3'>
+                                        <img src={image4} className='img-fluid' alt='' />
+                                        <div id='filterDivAction'>
+                                            <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
+                                            <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
+                                                <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
+                                                <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
+                                                <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
+                                                <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className='d-flex flex-column align-items-center'>
+                                        <h6 className='my-4'>
+                                            نام محصول
+                                        </h6>
+                                        <h5>1000000 تومان</h5>
+                                        <p className='mt-2'>
+                                            <span className='ms-2'>(99)</span>
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-4 mt-4'>
+                                <div className='bg-white'>
+                                    <div className='position-relative overflow-hidden p-3'>
+                                        <img src={image5} className='img-fluid' alt='' />
+                                        <div id='filterDivAction'>
+                                            <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
+                                            <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
+                                                <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
+                                                <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
+                                                <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
+                                                <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className='d-flex flex-column align-items-center'>
+                                        <h6 className='my-4'>
+                                            نام محصول
+                                        </h6>
+                                        <h5>1000000 تومان</h5>
+                                        <p className='mt-2'>
+                                            <span className='ms-2'>(99)</span>
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-4 mt-4'>
+                                <div className='bg-white'>
+                                    <div className='position-relative overflow-hidden p-3'>
+                                        <img src={image6} className='img-fluid' alt='' />
+                                        <div id='filterDivAction'>
+                                            <div className='img-pattern w-100 h-100 position-absolute top-0 end-0'></div>
+                                            <div className='position-absolute top-50 end-0 w-100 d-flex justify-content-evenly'>
+                                                <FontAwesomeIcon icon="fas fa-search" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-1' />
+                                                <FontAwesomeIcon icon="fas fa fa-sync-alt" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-2' />
+                                                <FontAwesomeIcon icon="fas fa-heart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-3' />
+                                                <FontAwesomeIcon icon="fas fa fa-shopping-cart" className='main-color-2 p-3 border border-secondary animate__animated animate__fadeInUp delay-4' />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className='d-flex flex-column align-items-center'>
+                                        <h6 className='my-4'>
+                                            نام محصول
+                                        </h6>
+                                        <h5>1000000 تومان</h5>
+                                        <p className='mt-2'>
+                                            <span className='ms-2'>(99)</span>
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+                                            <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
                         {/*pagination-start */}
                         <div className='row'>

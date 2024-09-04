@@ -37,13 +37,13 @@ function SingleProduct() {
                             <div id="carouselSingle" className="carousel slide" data-bs-ride="carousel">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <img src={image1} className="d-block w-100 object-fit-contain" alt="..." />
+                                        <img src={image1} className="d-block w-100 h-100 object-fit-contain" alt="..." />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={image2} className="d-block w-100 object-fit-contain" alt="..." />
+                                        <img src={image2} className="d-block w-100 h-100 object-fit-contain" alt="..." />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={image3} className="d-block w-100 object-fit-contain" alt="..." />
+                                        <img src={image3} className="d-block w-100 h-100 object-fit-contain" alt="..." />
                                     </div>
                                 </div>
                                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselSingle" data-bs-slide="prev">
@@ -143,10 +143,10 @@ function SingleProduct() {
                             </div>
                         </span>
                         <div className='col-12 dir-left d-flex justify-content-end my-4'>
-                            <div className='col-6 col-lg-4'>
+                            <div className='col-6 col-md-4'>
                                 <button className='btn bg-warning'> اضافه به سبد </button>
                             </div>
-                            <div className='col-6 col-lg-3'>
+                            <div className='col-6 col-md-3'>
                                 <div className="input-group mb-3">
                                     <span className="input-group-text rounded-0">
                                         <FontAwesomeIcon icon="fas fa-plus" />
@@ -159,7 +159,7 @@ function SingleProduct() {
                             </div>
 
                         </div>
-                        <div className='col-12 col-lg-5 d-flex justify-content-between'>
+                        <div className='col-12 col-md-5 d-flex justify-content-between'>
                             <p>اشتراک گذاری:</p>
                             <FontAwesomeIcon icon="fab fa-facebook-f" />
                             <FontAwesomeIcon icon="fab fa-twitter" />
