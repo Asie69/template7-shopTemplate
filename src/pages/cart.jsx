@@ -43,7 +43,7 @@ function Cart() {
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
-                                        <div className="input-group">
+                                        <div className="input-group flex-nowrap">
                                             <span className="input-group-text rounded-0">
                                                 <FontAwesomeIcon icon="fas fa-plus" />
                                             </span>
@@ -65,7 +65,7 @@ function Cart() {
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
-                                        <div className="input-group">
+                                        <div className="input-group flex-nowrap">
                                             <span className="input-group-text rounded-0">
                                                 <FontAwesomeIcon icon="fas fa-plus" />
                                             </span>
@@ -87,7 +87,7 @@ function Cart() {
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
-                                        <div className="input-group">
+                                        <div className="input-group flex-nowrap">
                                             <span className="input-group-text rounded-0">
                                                 <FontAwesomeIcon icon="fas fa-plus" />
                                             </span>
@@ -109,7 +109,7 @@ function Cart() {
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
-                                        <div className="input-group">
+                                        <div className="input-group flex-nowrap">
                                             <span className="input-group-text rounded-0">
                                                 <FontAwesomeIcon icon="fas fa-plus" />
                                             </span>
@@ -131,7 +131,7 @@ function Cart() {
                                     </td>
                                     <td className='align-middle'>15000000 تومان</td>
                                     <td className='align-middle col-2'>
-                                        <div className="input-group">
+                                        <div className="input-group flex-nowrap">
                                             <span className="input-group-text rounded-0">
                                                 <FontAwesomeIcon icon="fas fa-plus" />
                                             </span>

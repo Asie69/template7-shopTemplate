@@ -300,7 +300,7 @@ function Layout() {
                             <img src={image1} alt=""/>
                         </div>
                         <div className="col-md-6 order-1 order-md-2 text-center text-md-start">
-                            <p className="text-white mb-0 float-start"> Domain. All Rights Reserved. Designed by Asie Davari©</p>
+                            <p className="text-white mb-0 float-md-start"> Domain. All Rights Reserved. Designed by Asie Davari©</p>
                         </div>
 
                     </div>

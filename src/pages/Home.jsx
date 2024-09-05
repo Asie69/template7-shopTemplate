@@ -842,6 +842,8 @@ function Home() {
                             // center="true"
                             responsive={{
                                 '0': { items: 2, nav: false },
+                                '481': { items: 3, nav: false },
+
                                 '768': { items: 4, nav: false },
                                 '990': { items: 6, nav: true, center:true },
                             }}

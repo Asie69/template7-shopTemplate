@@ -298,7 +298,7 @@ function SingleProduct() {
                                 margin={20}
                                 responsive={{
                                     '0': { items: 1, nav: false },
-                                    '768': { items: 2, nav: false },
+                                    '481': { items: 2, nav: false },
                                     '990': { items: 4, nav: true, center: true },
                                 }}
 
