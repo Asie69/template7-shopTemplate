@@ -8,11 +8,7 @@ import image3 from '../assets/img/product-3.jpg';
 import image4 from '../assets/img/product-4.jpg';
 import image5 from '../assets/img/product-5.jpg';
 import image6 from '../assets/img/user.jpg';
-
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
 
 function SingleProduct() {
     return (
@@ -51,7 +47,6 @@ function SingleProduct() {
                                 </button>
                                 <button className="carousel-control-next" type="button" data-bs-target="#carouselSingle" data-bs-slide="next">
                                     <FontAwesomeIcon icon="fas fa-angle-right" className='main-color-2 fa-2x' />
-
                                 </button>
                             </div>
                         </div>
@@ -157,7 +152,6 @@ function SingleProduct() {
                                     </span>
                                 </div>
                             </div>
-
                         </div>
                         <div className='col-12 col-md-5 d-flex justify-content-between'>
                             <p>اشتراک گذاری:</p>
@@ -172,14 +166,14 @@ function SingleProduct() {
                 <div className="row" id='description'>
                     <div className='col-12 bg-white my-4 p-4'>
                         <nav>
-                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">توضیحات</button>
-                                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">اطلاعات</button>
-                                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">نظرات</button>
+                            <div className="nav nav-tabs" id="nav-tab" role="tablist">
+                                <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">توضیحات</button>
+                                <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">اطلاعات</button>
+                                <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">نظرات</button>
                             </div>
                         </nav>
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                        <div className="tab-content" id="nav-tabContent">
+                            <div className="tab-pane fade show active p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
                                 <p>
                                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                                 </p>
@@ -187,7 +181,7 @@ function SingleProduct() {
                                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                                 </p>
                             </div>
-                            <div class="tab-pane fade p-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                            <div className="tab-pane fade p-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
                                 <p>
                                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                                 </p>
@@ -222,7 +216,7 @@ function SingleProduct() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade p-3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                            <div className="tab-pane fade p-3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
                                 <div className='row'>
                                     <div className='col-lg-6'>
                                         <h5>1 نظر برای "نام محصول"</h5>
@@ -289,21 +283,15 @@ function SingleProduct() {
                     </div>
                     <div className='row'>
                         <div className='co1-12 p-0'>
-                            
-                            <OwlCarousel
-
-                            
+                            <OwlCarousel                         
                                 autoplay
                                 loop
                                 margin={20}
                                 responsive={{
                                     '0': { items: 1, nav: false },
                                     '481': { items: 2, nav: false },
-                                    '990': { items: 4, nav: true, center: true },
-                                }}
-
-
-                            >
+                                    '990': { items: 4, nav: true, center: true }
+                                }}>
                                 <div className='item' id='singlePro-sample'>
                                     <div className='bg-white col mx-0'>
                                         <div className='position-relative overflow-hidden p-3'>
@@ -318,7 +306,6 @@ function SingleProduct() {
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div className='d-flex flex-column align-items-center'>
                                             <h6 className='my-4'>
                                                 نام محصول
@@ -331,7 +318,6 @@ function SingleProduct() {
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                             </p>
                                         </div>
                                     </div>
@@ -350,7 +336,6 @@ function SingleProduct() {
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div className='d-flex flex-column align-items-center'>
                                             <h6 className='my-4'>
                                                 نام محصول
@@ -363,7 +348,6 @@ function SingleProduct() {
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                             </p>
                                         </div>
                                     </div>
@@ -382,7 +366,6 @@ function SingleProduct() {
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div className='d-flex flex-column align-items-center'>
                                             <h6 className='my-4'>
                                                 نام محصول
@@ -395,7 +378,6 @@ function SingleProduct() {
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                             </p>
                                         </div>
                                     </div>
@@ -414,7 +396,6 @@ function SingleProduct() {
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div className='d-flex flex-column align-items-center'>
                                             <h6 className='my-4'>
                                                 نام محصول
@@ -427,7 +408,6 @@ function SingleProduct() {
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                             </p>
                                         </div>
                                     </div>
@@ -446,7 +426,6 @@ function SingleProduct() {
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div className='d-flex flex-column align-items-center'>
                                             <h6 className='my-4'>
                                                 نام محصول
@@ -459,7 +438,6 @@ function SingleProduct() {
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                                 <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                             </p>
                                         </div>
                                     </div>
@@ -467,13 +445,8 @@ function SingleProduct() {
                             </OwlCarousel>
                         </div>
                     </div>
-                </section>
-                
+                </section>           
                 {/*carousel-end */}
-
-
-
-
             </div>
         </>
     );

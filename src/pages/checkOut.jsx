@@ -42,19 +42,18 @@ function CheckOut() {
                                 </div>
                                 <div className="col-lg-6">
                                     <label className="form-label main-color-2">کشور</label>
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select className="form-select" aria-label="Default select example">
                                         <option selected>انتخاب</option>
                                         <option value="1">ایران</option>
                                     </select>
                                 </div>
                                 <div className="col-lg-6">
                                     <label className="form-label main-color-2">شهر</label>
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select className="form-select" aria-label="Default select example">
                                         <option selected>انتخاب</option>
                                         <option value="1">مشهد</option>
                                         <option value="2">شیراز</option>
                                         <option value="3">اصفهان</option>
-
                                     </select>
                                 </div>
                                 <div className="col-lg-6 my-3">
@@ -66,15 +65,15 @@ function CheckOut() {
                                     <input type="text" className="form-control" id="zipCode" placeholder="کد پستی " />
                                 </div>
                                 <div className='col-lg-6'>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="createAccount" checked />
-                                        <label class="form-check-label" for="createAccount">
+                                    <div className="form-check">
+                                        <input className="form-check-input" type="checkbox" value="" id="createAccount" checked />
+                                        <label className="form-check-label" for="createAccount">
                                             ایجاد حساب کاربری
                                         </label>
                                     </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="shippingAddress" />
-                                        <label class="form-check-label" for="shippingAddress">
+                                    <div className="form-check">
+                                        <input className="form-check-input" type="checkbox" value="" id="shippingAddress" />
+                                        <label className="form-check-label" for="shippingAddress">
                                             ارسال به آدرس دیگر
                                         </label>
                                     </div>
@@ -113,36 +112,33 @@ function CheckOut() {
                             <div className='d-flex justify-content-between'>
                                 <h6>جمع</h6>
                                 <p>150000 تومان</p>
-                            </div>
-                            
-                            
+                            </div>                           
                         </div>
                         <h5 className='position-relative z-2 mt-4'>
                             <span className='bg-secondary-subtle ps-2'>پرداخت</span>
                         </h5>
                         <div className='col-12 bg-white p-4 mt-4'>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="paymentRadio" id="paymentRadio1" checked />
-                                <label class="form-check-label" for="paymentRadio1">
+                            <div className="form-check">
+                                <input className="form-check-input" type="radio" name="paymentRadio" id="paymentRadio1" checked />
+                                <label className="form-check-label" for="paymentRadio1">
                                         ملت
                                     </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="paymentRadio" id="paymentRadio2"/>
-                                <label class="form-check-label" for="paymentRadio2">
+                            <div className="form-check">
+                                <input className="form-check-input" type="radio" name="paymentRadio" id="paymentRadio2"/>
+                                <label className="form-check-label" for="paymentRadio2">
                                         زرین پال
                                     </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="paymentRadio" id="paymentRadio3" />
-                                <label class="form-check-label" for="paymentRadio3">
+                            <div className="form-check">
+                                <input className="form-check-input" type="radio" name="paymentRadio" id="paymentRadio3" />
+                                <label className="form-check-label" for="paymentRadio3">
                                     صادرات
                                 </label>
                             </div>
                             <button type='button' className='btn btn-warning w-100 rounded-0 mt-3 p-2'>سفارش</button>
                         </div>
                     </div>
-
                 </section>
             </div>
         </>

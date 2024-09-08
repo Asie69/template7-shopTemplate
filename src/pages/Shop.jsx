@@ -5,11 +5,7 @@ import image3 from '../assets/img/product-3.jpg';
 import image4 from '../assets/img/product-4.jpg';
 import image5 from '../assets/img/product-5.jpg';
 import image6 from '../assets/img/product-6.jpg';
-
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
 
 function Shop() {
     return (
@@ -220,7 +216,6 @@ function Shop() {
                                             </div>
                                         </div>
                                     </div>
-
                                     <div className='d-flex flex-column align-items-center'>
                                         <h6 className='my-4'>
                                             نام محصول
@@ -233,7 +228,6 @@ function Shop() {
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                         </p>
                                     </div>
                                 </div>
@@ -252,7 +246,6 @@ function Shop() {
                                             </div>
                                         </div>
                                     </div>
-
                                     <div className='d-flex flex-column align-items-center'>
                                         <h6 className='my-4'>
                                             نام محصول
@@ -265,7 +258,6 @@ function Shop() {
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                         </p>
                                     </div>
                                 </div>
@@ -284,7 +276,6 @@ function Shop() {
                                             </div>
                                         </div>
                                     </div>
-
                                     <div className='d-flex flex-column align-items-center'>
                                         <h6 className='my-4'>
                                             نام محصول
@@ -297,7 +288,6 @@ function Shop() {
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                         </p>
                                     </div>
                                 </div>
@@ -316,7 +306,6 @@ function Shop() {
                                             </div>
                                         </div>
                                     </div>
-
                                     <div className='d-flex flex-column align-items-center'>
                                         <h6 className='my-4'>
                                             نام محصول
@@ -329,7 +318,6 @@ function Shop() {
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                         </p>
                                     </div>
                                 </div>
@@ -348,7 +336,6 @@ function Shop() {
                                             </div>
                                         </div>
                                     </div>
-
                                     <div className='d-flex flex-column align-items-center'>
                                         <h6 className='my-4'>
                                             نام محصول
@@ -361,7 +348,6 @@ function Shop() {
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                         </p>
                                     </div>
                                 </div>
@@ -380,7 +366,6 @@ function Shop() {
                                             </div>
                                         </div>
                                     </div>
-
                                     <div className='d-flex flex-column align-items-center'>
                                         <h6 className='my-4'>
                                             نام محصول
@@ -393,37 +378,28 @@ function Shop() {
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                             <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                         </p>
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                         {/*pagination-start */}
                         <div className='row'>
-                            <div className='col-12 d-flex justify-content-center mt-3'>
-                                
+                            <div className='col-12 d-flex justify-content-center mt-3'>                               
                                 <nav aria-label="Page navigation example">
                                     <ul className="pagination">
                                         <li className="page-item"><Link className="page-link" to="">Previous</Link></li>
                                         <li className="page-item"><Link className="page-link" to="">1</Link></li>
                                         <li className="page-item"><Link className="page-link" to="">2</Link></li>
                                         <li className="page-item"><Link className="page-link" to="">3</Link></li>
-                                        <li className="page-item"><Link className="page-link" to="">Next</Link></li>
-                                        
+                                        <li className="page-item"><Link className="page-link" to="">Next</Link></li>                                      
                                     </ul>
-                                </nav>
-                                
-                                
+                                </nav>                               
                             </div>
                         </div>
                         {/*pagination-end */}
                     </div>
-
                 </section>
-
             </div>
         </>
     );

@@ -27,14 +27,7 @@ import image22 from '../assets/img/vendor-4.jpg';
 import image23 from '../assets/img/vendor-5.jpg';
 import image24 from '../assets/img/vendor-6.jpg';
 import image25 from '../assets/img/vendor-7.jpg';
-
-
-
-
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
 
 function Home() {
     return (
@@ -62,7 +55,6 @@ function Home() {
                                 <NavLink className="btn btn-warning rounded-0 mt-4 main-color-2">خرید کنید</NavLink>
                             </div>
                         </div>
-
                     </div>
                     <div className="col-lg-8 order-1 order-lg-2 px-0 pe-lg-3 my-4">
                         <div id="carouselExampleCaptions" className="carousel slide">
@@ -88,8 +80,6 @@ function Home() {
                                         <h2 className="animate__animated animate__fadeInDown">لورم ایپسوم</h2>
                                         <p className='mt-3 animate__animated animate__bounceIn'>لورم ایپسوم متن ساختگی با تولید س را برای طراحان رایانه</p>
                                         <NavLink className='btn text-white border border-2 border-white rounded-0 fw-bold my-4 animate__animated animate__fadeInUp'>الان خرید کن</NavLink>
-
-
                                     </div>
                                 </div>
                                 <div className="carousel-item">
@@ -99,8 +89,6 @@ function Home() {
                                         <h2 className="animate__animated animate__fadeInDown">لورم ایپسوم</h2>
                                         <p className='mt-3 animate__animated animate__bounceIn'>لورم ایپسوم متن ساختگی با تولید س را برای طراحان رایانه</p>
                                         <NavLink className='btn text-white border border-2 border-white rounded-0 fw-bold my-4 animate__animated animate__fadeInUp'>الان خرید کن</NavLink>
-
-
                                     </div>
                                 </div>
                             </div>
@@ -299,7 +287,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -318,7 +305,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -331,7 +317,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -350,7 +335,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -363,7 +347,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -382,7 +365,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -395,7 +377,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -414,7 +395,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -427,7 +407,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -446,7 +425,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -459,7 +437,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -478,7 +455,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -491,7 +467,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -510,7 +485,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -523,19 +497,16 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div className='row my-5'>
                         <div className='col-md-6 mt-5'>
                             <div className='col-12 position-relative product-offer overflow-hidden'>
                                 <img src={image5} className='w-100 image-featured-offer object-fit-cover' />
                                 <div className='pattern-offer position-absolute top-0 right-0'></div>
-
                                 <div id='offer-content' className='position-absolute top-0 end-0 d-flex flex-column justify-content-center align-items-center w-100 h-100'>
                                     <h5 className='text-white'>20% تخفیف</h5>
                                     <h3 className='text-white fw-bold'>پیشنهاد ویژه</h3>
@@ -547,7 +518,6 @@ function Home() {
                             <div className='col-12 position-relative product-offer overflow-hidden'>
                                 <img src={image6} className='w-100 image-featured-offer object-fit-cover' />
                                 <div className='pattern-offer position-absolute top-0 right-0'></div>
-
                                 <div id='offer-content' className='position-absolute top-0 end-0 d-flex flex-column justify-content-center align-items-center w-100 h-100'>
                                     <h5 className='text-white'>20% تخفیف</h5>
                                     <h3 className='text-white fw-bold'>پیشنهاد ویژه</h3>
@@ -582,7 +552,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -595,7 +564,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -614,7 +582,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -627,7 +594,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -646,7 +612,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -659,7 +624,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -678,7 +642,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -691,7 +654,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -710,7 +672,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -723,7 +684,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -742,7 +702,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -755,7 +714,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -774,7 +732,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -787,7 +744,6 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
@@ -806,7 +762,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className='d-flex flex-column align-items-center'>
                                     <h6 className='my-4'>
                                         نام محصول
@@ -819,17 +774,14 @@ function Home() {
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
                                         <FontAwesomeIcon icon="fas fa-star" className='main-color-1' />
-
                                     </p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </section>
                 {/*recent product-end */}
                 {/*brandsLogo-start */}
-
                 <div className='row'>
                     <div className='co1-12 my-5'>
                         <OwlCarousel
@@ -843,11 +795,9 @@ function Home() {
                             responsive={{
                                 '0': { items: 2, nav: false },
                                 '481': { items: 3, nav: false },
-
                                 '768': { items: 4, nav: false },
                                 '990': { items: 6, nav: true, center:true },
                             }}
-
                         >
                             <div className='item'>
                                 <img src={image20} />
@@ -871,10 +821,6 @@ function Home() {
                     </div>
                 </div>
                 {/*brandsLogo-end */}
-
-
-
-
             </div>
         </>
     );

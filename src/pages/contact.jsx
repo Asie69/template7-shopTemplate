@@ -2,16 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
-
-
-
 function ContactUs() {
-
-
-
-
-
     return (
         <>
             <div className="container">
@@ -75,7 +66,6 @@ function ContactUs() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </section>
             </div>

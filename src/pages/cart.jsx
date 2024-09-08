@@ -25,7 +25,7 @@ function Cart() {
                 {/*breadCrumb-end */}
                 <section className='row'>
                     <div className='col-12 col-lg-9 table-responsive'>
-                        <table class="table table-hover text-center mt-0">
+                        <table className="table table-hover text-center mt-0">
                             <thead>
                                 <tr className='table-dark'>
                                     <th scope="col">محصول</th>
@@ -173,12 +173,10 @@ function Cart() {
                                         <div className='col-12 d-flex justify-content-between'>
                                             <p>قیمت کل</p>
                                             <p>15000000 تومان</p>
-
                                         </div>
                                         <div className='col-12 d-flex justify-content-between'>
                                             <p>هزینه ارسال</p>
                                             <p>50000 تومان</p>
-
                                         </div>
                                         <hr />
                                         <div className='col-12 d-flex justify-content-between'>
@@ -187,15 +185,12 @@ function Cart() {
                                         </div>
                                         <div className='col-12'>
                                             <button type='button' className='btn btn-warning rounded-0 w-100 mt-3'>تسویه حساب</button>
-                                    </div>
-                                        
-                                    </div>
-                                    
+                                    </div>                                      
+                                    </div>                                  
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </section>
             </div>
         </>

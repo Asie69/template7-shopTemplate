@@ -7,8 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import image1 from '../assets/img/payments.png';
 import 'animate.css';
 
-
-
 function Layout() {
     return (
         <>
@@ -58,7 +56,6 @@ function Layout() {
                         <div className="col-lg-4 d-none d-lg-block">
                             <p className="lh-sm">خدمات مشتریان</p>
                             <p className="fw-bold lh-sm">05130000000</p>
-
                         </div>
                         <div className="col-lg-4 d-none d-lg-block">
                             <form className="btn-group" role="search">
@@ -99,31 +96,27 @@ function Layout() {
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li><hr class="dropdown-divider" /></li>
+                                        <li><hr className="dropdown-divider" /></li>
                                         <li><a className="dropdown-item" href="#">جین</a></li>
-                                        <li><hr class="dropdown-divider" /></li>
+                                        <li><hr className="dropdown-divider" /></li>
                                         <li><a className="dropdown-item" href="#">لباس شنا</a></li>
-                                        <li><hr class="dropdown-divider" /></li>
+                                        <li><hr className="dropdown-divider" /></li>
                                         <li><a className="dropdown-item" href="#">لباس خواب</a></li>
-                                        <li><hr class="dropdown-divider" /></li>
+                                        <li><hr className="dropdown-divider" /></li>
                                         <li><a className="dropdown-item" href="#">لباس ورزشی</a></li>
-                                        <li><hr class="dropdown-divider" /></li>
+                                        <li><hr className="dropdown-divider" /></li>
                                         <li><a className="dropdown-item" href="#">کت</a></li>
-                                        <li><hr class="dropdown-divider" /></li>
+                                        <li><hr className="dropdown-divider" /></li>
                                         <li><a className="dropdown-item" href="#">کفش</a></li>
-
-
-
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-6 pe-0">
                                 <nav className="navbar navbar-expand-lg">
                                     <div className="container-fluid">
-                                        <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                            <span class="navbar-toggler-icon"></span>
-                                        </button>
-                                        
+                                        <button className="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span className="navbar-toggler-icon"></span>
+                                        </button>                                      
                                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                             <ul className="navbar-nav">
                                                 <li className="nav-item">
@@ -148,39 +141,30 @@ function Layout() {
                                                 </li>
                                                 <li className="nav-item">
                                                     <NavLink className={({ isActive, isPending }) => isActive ? "active nav-link text-light" : "nav-link text-light"} to="/contact">تماس با ما</NavLink>
-
                                                 </li>
                                             </ul>
-
                                         </div>
                                     </div>
                                 </nav>
                             </div>
                             <div className="col-lg-2 d-flex justify-content-end align-items-center ps-0" id="shopping-cart">
                                 <div className="d-flex align-items-center">
-                                    <span class="badge border rounded-circle">0</span>
+                                    <span className="badge border rounded-circle">0</span>
                                     <FontAwesomeIcon className="main-color-1 p-1" icon="fa-solid fa-shopping-cart" />
                                 </div>
                                 <div className="d-flex align-items-center">
-                                    <span class="badge border rounded-circle">0</span>
+                                    <span className="badge border rounded-circle">0</span>
                                     <FontAwesomeIcon className="main-color-1 p-1" icon="fa-solid fa-heart" />
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
                 </div>
                 {/*navbar-end */}
-
-
-
-
             </header>
             <div className="container-fluid bg-secondary-subtle pb-5">
                 <Outlet />
             </div>
-
             {/*footer-start */}
             <footer className="container-fluid bg-main-2">
                 <div className="container">
@@ -232,8 +216,6 @@ function Layout() {
                                     <NavLink to="/contact" className="text-decoration-none text-white">تماس با ما</NavLink>
                                 </li>
                             </ul>
-
-
                         </div>
                         <div className="col-12 col-md-4 col-lg-2 my-3 my-lg-5">
                             <h3 className="text-white mb-4">حساب کاربری</h3>
@@ -263,8 +245,6 @@ function Layout() {
                                     <NavLink to="/contact" className="text-decoration-none text-white">تماس با ما</NavLink>
                                 </li>
                             </ul>
-
-
                         </div>
                         <div className="col-12 col-md-4 col-lg-3 my-3 my-lg-5">
                             <h3 className="text-white">خبرنامه</h3>
@@ -288,10 +268,8 @@ function Layout() {
                                 <div className="bg-main-1 footerIcon d-flex justify-content-center align-items-center mx-2">
                                     <FontAwesomeIcon icon="fab fa-instagram" className="main-color-2" />
                                 </div>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div className="container border-top py-4">
@@ -302,17 +280,13 @@ function Layout() {
                         <div className="col-md-6 order-1 order-md-2 text-center text-md-start">
                             <p className="text-white mb-0 float-md-start"> Domain. All Rights Reserved. Designed by Asie Davari©</p>
                         </div>
-
                     </div>
                 </div>
                 <a className="animateIcon d-flex justify-content-center align-items-center border border-3 main-color-2" href="#">
                     <FontAwesomeIcon icon="fa-solid fa-angle-double-up"/>
                 </a>
-
             </footer>
             {/*footer-end */}
-
-
         </>
     );
 }
